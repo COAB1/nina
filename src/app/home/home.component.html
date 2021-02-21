@@ -1,0 +1,35 @@
+<div class="container">
+
+    <div class="row" id="header">
+        <div class="col-12">
+            <h1>Listagem dos Meus Repositórios</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"> listar aqui </li>
+                <li class="list-group-item"> listar aqui </li>
+                <li class="list-group-item"> listar aqui </li>
+                <li class="list-group-item"> listar aqui </li>
+
+            </ul>
+        </div>
+        <div class="col-10">
+            <ng-content></ng-content>
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="form-group col-6" id="search">
+            <input type="text" class="form-control" placeholder="Buscar repositório" />
+            <br>
+            <button type="button" class="btn btn-secondary">Pesquisar</button>
+        </div>
+    </div>
+
+</div>
+<!-- 
+[(ngModel)]="aluno.nome"
+(click)="pesquisar()" -->
