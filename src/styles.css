@@ -1,3 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 
+#header{
+    background: linear-gradient(to bottom left, #ccffff, #FFCCCC); 
+    margin-bottom: 20px;
+
+}
+
+h1{
+    color:#383838;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+}
+
+#search{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-secondary{
+    margin-left: 5px;
+}
