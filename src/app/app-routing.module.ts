@@ -1,16 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home/home.component';
+import { RepositoryComponent } from './repository/repository.component';
 import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
     {
-        path: '',
+        path: 'login',
         component: LoginComponent
     },
     {
-        path: 'home',
-        component: HomeComponent
+        path: '',
+        component: RepositoryComponent
     }
 ];
 
