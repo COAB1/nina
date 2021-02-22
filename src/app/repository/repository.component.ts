@@ -1,17 +1,15 @@
 import { Component, OnInit } from '@angular/core';
-import { Repository } from './service/repository';
 import { RepositoryService } from './service/repository.service'
-
 
 @Component({
   selector: 'app-repository',
   templateUrl: './repository.component.html',
   styleUrls: ['./repository.component.css']
 })
+
 export class RepositoryComponent implements OnInit {
 
-  repository: Repository = new Repository();
-  repositories: Repository[] = [];
+  repositories: {};
 
   constructor(
     private repositoryService: RepositoryService,
@@ -19,8 +17,10 @@ export class RepositoryComponent implements OnInit {
 
   ngOnInit(): void {
     this.repositoryService.getRepositories().subscribe(repositories => {
-      console.log(repositories);
+      /* console.log(repositories); */
+      this.repositories = repositories;
     });
+    
   }
 
 }

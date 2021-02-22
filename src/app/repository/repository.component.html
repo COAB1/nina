@@ -6,27 +6,19 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="col-12">
-            <ul class="list-group list-group-flush" *ngFor="let repository of repositories">
-                <!-- <li class="list-group-item"> {{repository.id}} </li> -->
-                <li class="list-group-item"> {{repository.name}} </li>
-            </ul>
-        </div>
-        <div class="col-10">
-            <ng-content></ng-content>
-        </div>
+    <div>
+        <table class="table text-center table-striped">
+            <thead>
+                <th> Id </th>
+                <th> Nome </th>
+            </thead>
+            <tbody>
+                <tr *ngFor="let repository of repositories">
+                    <td scope="col">{{repository.id}}</td>
+                    <td scope="col">{{repository.name}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <ng-content></ng-content>
     </div>
-    <br>
-    <div class="row">
-        <div class="form-group col-6" id="search">
-            <input type="text" class="form-control" placeholder="Buscar repositório" />
-            <br>
-            <button type="button" class="btn btn-secondary">Pesquisar</button>
-        </div>
-    </div>
-
 </div>
-<!-- 
-[(ngModel)]="aluno.nome"
-(click)="pesquisar()" -->

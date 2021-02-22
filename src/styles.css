@@ -1,23 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-
-#header{
-    background: linear-gradient(to bottom left, #ccffff, #FFCCCC); 
-    margin-bottom: 20px;
-
+* {
+  margin: 0;
+  padding: 0;
 }
 
-h1{
-    color:#383838;
-    text-align: center;
-    margin: 20px 0px 20px 0px;
+.container {
+  width: auto;
 }
 
-#search{
-    display: flex;
-    justify-content: space-between;
+#header {
+  background: linear-gradient(to bottom left, #ccffff, #ffcccc);
+  min-height: 10.5vh;
+  margin-bottom: 20px;
+  border-radius: 2px;
 }
 
-.btn-secondary{
-    margin-left: 5px;
+h1 {
+  color: #383838;
+  text-align: center;
+  margin: 20px 0px 20px 0px;
+}
+
+.table {
+  word-wrap: normal;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+  min-width: 30px;
 }
