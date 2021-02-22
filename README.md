@@ -1,6 +1,6 @@
 # Nina
 
-Este repositório foi criado para a execução do desafio para a vaga de front-end da Nina
+Este repositório foi criado para a execução do desafio para a vaga de front-end na Nina
 
 # Configurações
 
@@ -12,13 +12,13 @@ Este repositório foi criado para a execução do desafio para a vaga de front-e
 
 # Dificuldades encontradas
 
-- No meu trabalho atual, contumamos usar requisições SOAP, que são por meio de .asmx, então não tive ainda muito contato com outros tipos de APIs e tive que pesquisar sobre para poder realizar a atividade;
+- No meu trabalho atual, costumamos usar requisições SOAP, que são por meio de .asmx, então não tive ainda muito contato com outros tipos de APIs e tive que pesquisar sobre para poder realizar a atividade;
 - De início, planejei começar a atividade pela tela de login, mas também encontrei dificuldade pois ainda não tinha criado tela de login integrada com APIs conforme solicitado. Dessa forma, pra não desistir de entregar o desafio, decidi focar na parte que conseguiria fazer, e fui direto para a tela inicial/principal (apesar de ter criado um componente para fazer o login inicialmente);
 - Não ter desenhado um protótipo antes me fez perder algum tempo pensando na melhor forma de exibir o conteúdo;
 - Tive algumas dificuldades na montagem da arquitetura, uma vez que na minha experiência profissional usamos uma arquitetura muito particular (um pouco diferente da MVC, por exemplo), então também perdi algum tempo tentando entender até que ponto fazia sentido criar novos componentes/funções/variáveis, ou fazer tudo da forma mais simples que eu conseguiria;
 
 # Lições (re)aprendidas
- - [x] A importãncia da boa organização de tempo para a realização das tarefas (as 24h a mais foram importantes para mim nesse sentido);
+ - [x] A importância da boa organização de tempo para a realização das tarefas (as 24h a mais foram importantes para mim nesse sentido);
  - [x] Relembrar como é a criação de um projeto do zero usando Angular, bem como a instalar as dependências necessárias;
  - [x] Reforcei o aprendizado de onde e como incluir novos serviços e componentes no app.module.ts;
  - [x] Aprendi a usar o HttpClient Library para o consumo da API;
