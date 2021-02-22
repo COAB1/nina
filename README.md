@@ -24,17 +24,19 @@ Este repositório foi criado para a execução do desafio para a vaga de front-e
  - [x] Aprendi a usar o HttpClient Library para o consumo da API;
  
 # Pontos a melhorar/aprender
-  - [] Aprender mais sobre CSS;
-  - [] Estudar mais sobre sobre APIs REST;
-  - [] Ter mais propriedade com o uso do Angular;
-  - [] Aprender sobre rxjs;
-  - [] Aprender a fazer um deploy na AWS;
+  -[] Aprender mais sobre CSS;
+  -[] Estudar mais sobre sobre APIs REST;
+  -[] Ter mais propriedade com o uso do Angular;
+  -[] Aprender sobre rxjs;
+  -[] Aprender a fazer um deploy na AWS;
   
 # Pontos para implementar no futuro
-  - [] Fazer a tela de login;
-  - [] Fazer a tela de perfil e incluir rota;
-  - [] Aprender a criar o serviço de paginação;
-  - [] Corrigir a responsividade nas telas menores que 428px de largura;
+  -[] Fazer a tela de login;
+  -[] Fazer a tela de perfil e incluir rota;
+  -[] Aprender a criar o serviço de paginação;
+  -[] Corrigir a responsividade nas telas menores que 428px de largura;
+  -[] Adicionar método de pesquisa de repositórios;
+  -[] Ajustar o código para pegar os repositórios do usuário que estiver logado e não somente de um usuário fixo como está agora;
   
 # Para ver o projeto rodando
   1. Faça o download do repositório;
